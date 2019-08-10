@@ -102,8 +102,6 @@
 				<key>FixUSB</key>
 				<true/>
 			</dict>
-			<key>Name</key>
-			<string>DSDT.aml</string>
 			<key>Patches</key>
 			<array>
 				<dict>
@@ -205,6 +203,10 @@
 		</array>
 		<key>FixHeaders</key>
 		<true/>
+		<key>ResetAddress</key>
+		<string>0x0CF9</string>
+		<key>ResetValue</key>
+		<string>06</string>
 		<key>SSDT</key>
 		<dict>
 			<key>DropOem</key>
@@ -224,6 +226,8 @@
 	</dict>
 	<key>Boot</key>
 	<dict>
+		<key>Arguments</key>
+		<string>-v</string>
 		<key>CustomLogo</key>
 		<string>Apple</string>
 		<key>Debug</key>
@@ -364,7 +368,7 @@
 				</data>
 				<key>framebuffer-con1-enable</key>
 				<data>
-				AQAAAA==
+				AAAAAA==
 				</data>
 				<key>framebuffer-con1-flags</key>
 				<data>
@@ -388,7 +392,7 @@
 				</data>
 				<key>framebuffer-con2-enable</key>
 				<data>
-				AQAAAA==
+				AAAAAA==
 				</data>
 				<key>framebuffer-con2-flags</key>
 				<data>
@@ -464,32 +468,8 @@
 	<dict>
 		<key>#ScreenResolution</key>
 		<string>1920x1080</string>
-		<key>Custom</key>
-		<dict>
-			<key>Entries</key>
-			<array>
-				<dict>
-					<key>Disabled</key>
-					<false/>
-					<key>FullTitle</key>
-					<string>macOS</string>
-					<key>Hidden</key>
-					<false/>
-					<key>Ignore</key>
-					<false/>
-					<key>InjectKexts</key>
-					<string>Detect</string>
-					<key>NoCaches</key>
-					<false/>
-					<key>Path</key>
-					<string>\System\Library\CoreServices\boot.efi</string>
-					<key>Type</key>
-					<string>OSX</string>
-					<key>Volume</key>
-					<string>Mojave</string>
-				</dict>
-			</array>
-		</dict>
+		<key>ConsoleMode</key>
+		<string>Mix</string>
 		<key>Hide</key>
 		<array>
 			<string>Preboot</string>
@@ -508,16 +488,7 @@
 		<key>PlayAsync</key>
 		<true/>
 		<key>Scan</key>
-		<dict>
-			<key>Entries</key>
-			<true/>
-			<key>Legacy</key>
-			<false/>
-			<key>Linux</key>
-			<true/>
-			<key>Tool</key>
-			<false/>
-		</dict>
+		<true/>
 		<key>ScreenResolution</key>
 		<string>1920x1080</string>
 		<key>Theme</key>
@@ -527,15 +498,31 @@
 	<dict>
 		<key>EDID</key>
 		<dict>
+			<key>Custom</key>
+			<data>
+			AP///////wAQrKKgTFdDMhQYAQSlNR54Pn51p1VSnCcPUFSlSwBx
+			T4GAqcCpQNHAAQEBAQEBAjqAGHE4LUBYLEUADyghAAAeAAAA/wA0
+			Q1dYNzQ1QzJDV0wKAAAA/ABERUxMIFUyNDE0SAogAAAA/QA4TB5T
+			EQAKICAgICAgAdACAxnxTJAFBAMCBxYBFB8SEyMJBweDAQAAAjqA
+			GHE4LUBYLEUADyghAAAeAR2AGHEcFiBYLCUADyghAACeAR0AclHQ
+			HiBuKFUADyghAAAejArQiiDgLRAQPpYADyghAAAYAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAwQ==
+			</data>
+			<key>HorizontalSyncPulseWidth</key>
+			<string>0x30</string>
 			<key>Inject</key>
-			<false/>
+			<true/>
+			<key>ProductID</key>
+			<string>41122</string>
+			<key>VendorID</key>
+			<string>0x4268</string>
 		</dict>
 		<key>Inject</key>
 		<dict>
 			<key>ATI</key>
 			<false/>
 			<key>Intel</key>
-			<true/>
+			<false/>
 			<key>NVidia</key>
 			<false/>
 		</dict>
@@ -555,7 +542,7 @@
 		<key>KernelLapic</key>
 		<true/>
 		<key>KernelPm</key>
-		<true/>
+		<false/>
 		<key>KernelToPatch</key>
 		<array>
 			<dict>
@@ -917,7 +904,7 @@
 		<key>ProductName-Comment</key>
 		<string>Using Haswell MacBookAir6,2 until Clover has support for KabyLake identifiers</string>
 		<key>SerialNumber</key>
-		<string>C07W76ZMJYVX</string>
+		<string>C07W76ZMJYVY</string>
 		<key>SmUUID</key>
 		<string>BCDEED02-ACD5-4692-B774-A906DD8B8B57</string>
 		<key>Version</key>
