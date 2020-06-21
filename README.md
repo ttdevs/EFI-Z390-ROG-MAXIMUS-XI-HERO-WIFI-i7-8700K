@@ -45,6 +45,7 @@
 - [MountEFI](https://github.com/corpnewt/MountEFI)
 - [SSDTTime](https://github.com/corpnewt/SSDTTime)
 - [balenaEtcher](https://github.com/balena-io/etcher/releases)
+- [MaciASL](https://github.com/acidanthera/MaciASL/releases)
 
 ## 0xFF Reference
 
