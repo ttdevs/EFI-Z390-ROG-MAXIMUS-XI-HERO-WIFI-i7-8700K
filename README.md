@@ -26,7 +26,7 @@
 ## 0x02 Tools
 
 ### OpenCore
-[OpenCore 0.5.8](https://github.com/acidanthera/OpenCorePkg)
+[OpenCore 0.6.0](https://github.com/acidanthera/OpenCorePkg)
 
 ### Drives
 - [OpenCore](https://github.com/acidanthera/OpenCorePkg)
