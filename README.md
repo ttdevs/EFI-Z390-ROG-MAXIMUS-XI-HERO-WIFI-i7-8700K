@@ -34,7 +34,6 @@
 - [Lilu](https://github.com/acidanthera/Lilu)
 - [VirtualSMC](https://github.com/acidanthera/VirtualSMC)
 - [AppleALC](https://github.com/acidanthera/AppleALC)
-- [AppleSupportPkg](https://github.com/acidanthera/AppleSupportPkg)
 - [RTCMemoryFixup](https://github.com/acidanthera/RTCMemoryFixup)
 
 ### Tools
