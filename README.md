@@ -37,6 +37,8 @@ Update: [OpenCore 0.6.9](https://github.com/acidanthera/OpenCorePkg)
 - [VirtualSMC](https://github.com/acidanthera/VirtualSMC)
 - [AppleALC](https://github.com/acidanthera/AppleALC)
 - [RTCMemoryFixup](https://github.com/acidanthera/RTCMemoryFixup)
+- [BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM)
+- [AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup)
 
 ### Tools
 - [ProperTree](https://github.com/corpnewt/ProperTree)
@@ -47,6 +49,9 @@ Update: [OpenCore 0.6.9](https://github.com/acidanthera/OpenCorePkg)
 - [SSDTTime](https://github.com/corpnewt/SSDTTime)
 - [balenaEtcher](https://github.com/balena-io/etcher/releases)
 - [MaciASL](https://github.com/acidanthera/MaciASL/releases)
+
+### Downlad
+`python3 OC.py`
 
 ## 0xFF Reference
 
