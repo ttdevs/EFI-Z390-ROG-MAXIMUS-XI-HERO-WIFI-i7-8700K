@@ -1,6 +1,6 @@
 # Hackintosh with OpenCore
 
-Update: [OpenCore 0.6.7](https://github.com/acidanthera/OpenCorePkg)
+Update: [OpenCore 0.6.9](https://github.com/acidanthera/OpenCorePkg)
 
 ## 0x00 Hardware
 | Index | Name              | Model                                                                   |
@@ -28,7 +28,7 @@ Update: [OpenCore 0.6.7](https://github.com/acidanthera/OpenCorePkg)
 ## 0x02 Tools
 
 ### OpenCore
-[OpenCore 0.6.7](https://github.com/acidanthera/OpenCorePkg)
+[OpenCore 0.6.9](https://github.com/acidanthera/OpenCorePkg)
 
 ### Drives
 - [OpenCore](https://github.com/acidanthera/OpenCorePkg)
