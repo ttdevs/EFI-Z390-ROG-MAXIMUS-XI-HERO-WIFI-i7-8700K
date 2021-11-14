@@ -23,9 +23,27 @@ Update: [OpenCore 0.7.5](https://github.com/acidanthera/OpenCorePkg)
 - Bluetooth：正常
 - AirDrop：可用
 - Sleep/Resume：正常
-- 
 
-## 0x02 Tools
+## 0x02 Custom USB
+
+|       | Index | USB2.0(USB1.1) | USB3.0 |
+|-------|:-----:|:----------------:|:----:|
+| 1     | a     | 12             |       |
+| 2     | b     | 11            |        |
+| 3     | c     |  6              |        |
+| 4     | d     |  5              |   21     |
+| 5     | e     |   7             |   23     |
+| 6     | f     |  8              |  24      |
+| 7     | g     |  3              |  19      |
+| 8     | h     |   4             |   20     |
+
+> 13: Apple Bluetooth USB1.1, 14: Intel Bluetooth USB1.1
+
+![M11H](M11H.png)
+
+![USB](USB.png)
+
+## 0x03 Tools
 
 ### OpenCore
 [OpenCore](https://github.com/acidanthera/OpenCorePkg)
