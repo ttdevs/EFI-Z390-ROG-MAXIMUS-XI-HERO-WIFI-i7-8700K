@@ -30,14 +30,14 @@ Update: [OpenCore 0.7.5](https://github.com/acidanthera/OpenCorePkg)
 |-------|:-----:|:----------------:|:----:|
 | 1     | a     | 12             |       |
 | 2     | b     | 11            |        |
-| 3     | c     |  6              |        |
+| 3     | c     |  6              |  22      |
 | 4     | d     |  5              |   21     |
 | 5     | e     |   7             |   23     |
 | 6     | f     |  8              |  24      |
 | 7     | g     |  3              |  19      |
 | 8     | h     |   4             |   20     |
 
-> 13: Apple Bluetooth USB1.1, 14: Intel Bluetooth USB1.1
+> 13: Apple Bluetooth USB1.1
 
 ![M11H](M11H.png)
 
