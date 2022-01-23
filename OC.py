@@ -16,9 +16,12 @@ repo_other = [
     'acidanthera/AppleALC',
     'acidanthera/RTCMemoryFixup',
     'acidanthera/BrcmPatchRAM',
-    'acidanthera/AirportBrcmFixup'
+    'acidanthera/AirportBrcmFixup',
+    'acidanthera/IntelMausi'
 ]
-g = Github('86ebdacafe0e5249459f705cb699c5b65e365883')
+
+# https://github.com/settings/tokens
+g = Github('ghp_4pssx')
 
 
 def get_local_path(version):
