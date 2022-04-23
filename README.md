@@ -1,6 +1,6 @@
 # Hackintosh with OpenCore
 
-Update: [OpenCore 0.7.5](https://github.com/acidanthera/OpenCorePkg)
+Update: [OpenCore 0.8.0](https://github.com/acidanthera/OpenCorePkg)
 
 ## 0x00 Hardware
 | Index | Name              | Model                                                                   |
